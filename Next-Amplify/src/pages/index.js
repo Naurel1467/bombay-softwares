@@ -128,7 +128,7 @@ export default function About({ formattedDate }) {
   return (
     <>
       <h1>About page</h1>
-      <p>This is the about page. It was last updated on the -->  {formattedDate}.</p>
+      <p>This is the about page. It was last updated on the {formattedDate}.</p>
       <p>
         <a href="/products">View a server-side rendered page.</a>
       </p>

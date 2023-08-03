@@ -45,7 +45,7 @@ resource "aws_amplify_branch" "myapp_branch" {
 }
 ```
 ###### below is the Setup CI/CD pipeline with Amplify’s inbuilt functionality.
-#
+###### amplify.yaml
 ```
 version: 1
 applications:
@@ -87,4 +87,3 @@ appRoot: Next-Amplify
 |------|------|
 | [aws_amplify_app.default](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/amplify_app) | resource |
 | [aws_amplify_branch.default](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/amplify_branch) | resource |
-

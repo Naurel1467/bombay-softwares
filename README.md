@@ -73,13 +73,13 @@ appRoot: Next-Amplify
 | Name | Version |
 |------|---------|
 | [terraform version used](#requirement\_terraform) | = 1.5.4. |
-| [aws](#requirement\_aws) | >= 5.10.0 |
+| [aws](#requirement\_aws) | = 5.10.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-|[aws](#provider\_aws) | >= 5.10.0|
+|[aws](#provider\_aws) | = 5.10.0|
 
 After provisioning the infra triggered the pipeline from aws console in amplify
 after that for every commit on main branch it will auto trigger the pipeline

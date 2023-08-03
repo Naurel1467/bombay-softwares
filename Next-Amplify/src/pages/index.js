@@ -3,7 +3,10 @@ export default function About({ formattedDate }) {
   return (
     <>
       <h1>About page</h1>
-      <p>It works..!!!</p
+      <p>It works..!!!</p>
+      <Link href={www.linkedin.com/in/raviteja-merugu}>
+        <a target="_blank">Linkedin</a>
+      </Link>
       <p>
         <a href="/products">View a server-side rendered page.</a>
       </p>

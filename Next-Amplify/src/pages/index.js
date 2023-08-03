@@ -3,16 +3,7 @@ export default function About({ formattedDate }) {
   return (
     <>
       <h1>About page</h1>
-      <p>It works..!!!</p>
-      <p>To get to know more about me,click on below link</p>
-      <p> 
-        <a href="#" onclick="openLink('www.linkedin.com/in/raviteja-merugu')">Linkedin</a>
-        <script>
-            function openLink(url) {
-                window.open(url, '_blank');
-            }
-        </script>
-     </p>
+      <p>It works..!!!</p
       <p>
         <a href="/products">View a server-side rendered page.</a>
       </p>

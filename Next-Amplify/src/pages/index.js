@@ -6,7 +6,7 @@ export default function About({ formattedDate }) {
       <p>It works..!!!</p>
       <p>To get to know more about me,click on below link</p>
       <p> 
-        <a href="www.linkedin.com/in/raviteja-merugu">Linkedin</a> 
+        <a href="www.linkedin.com/in/raviteja-merugu" target="_blank">Linkedin</a> 
      </p>
       <p>
         <a href="/products">View a server-side rendered page.</a>
